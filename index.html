@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Titre de la page</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/fullpage.css">
+        <script src="assets/js/fullpage.js"></script>
+    </head>
+    <body>
+        <div id="body">
+          <div id="fullpage">
+          	<div class="section">Some section</div>
+          	<div class="section">Some section</div>
+          	<div class="section">Some section</div>
+          	<div class="section">Some section</div>
+          </div>
+        </div>
+    </body>
+    <script>
+      new fullpage('#fullpage', {
+      	//options here
+      	autoScrolling:true,
+      	scrollHorizontally: true
+      });
+    </script>
+</html>
